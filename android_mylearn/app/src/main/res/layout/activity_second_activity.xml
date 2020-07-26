@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second_Activity">
+
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="5dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="365dp"
+            android:layout_height="162dp"
+            android:text="登录成功登录成功登录成功登录成功登录成功登录成功登录成功登录成功登录成功"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="38dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="365dp"
+            android:layout_height="162dp"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="240dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="365dp"
+            android:layout_height="162dp"
+
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+
+        <!--        <FrameLayout-->
+        <!--            android:id="@+id/your_placeholder"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent">-->
+        <!--        </FrameLayout>-->
+
+        <fragment
+            android:id="@+id/fooFragment"
+            android:name="com.example.android_mylearn.PlusOneFragment"
+            android:layout_width="365dp"
+            android:layout_height="162dp"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="436dp" />
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
